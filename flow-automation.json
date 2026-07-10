@@ -1,6 +1,6 @@
 {
-  "version": "2.4.5, 2.4.6, 2.4.7, 2.4.8, 2.4.9, 2.5.0, 2.5.1, 2.5.2, 2.5.3, 2.5.4, 2.5.5, 2.5.6",
-  "hash": "2026-06-11-fix-tile-completion-blur",
+  "version": "2.4.5, 2.4.6, 2.4.7, 2.4.8, 2.4.9, 2.5.0, 2.5.1, 2.5.2, 2.5.3, 2.5.4, 2.5.5, 2.5.6, 2.5.7",
+  "hash": "2026-07-10-agent-ui-classic-composer",
   "selectors": {
     "createProjectButton": "button:has(i:contains(\"add_2\")):first",
     "configureUIModeButton": "button:has(i:contains(settings_2))",
@@ -36,6 +36,8 @@
     "sortLatestOption": "div[role=\"menu\"] > button:eq(2)",
     "virtuosoItemList": "div[data-side=\"top\"] div[data-testid=\"virtuoso-item-list\"] > div",
     "searchUploadedImage": "div[data-side=\"top\"] input[type=\"text\"]",
+    "agentPanelCloseButton": "button:has(i:contains(close):not(:contains(left_panel)))",
+    "agentModeToggle": "button[aria-pressed='true']:has(span.content), button[aria-pressed='true']:contains(에이전트)",
     "outputItems": "div > div > div[data-tile-id]:has(div)",
     "tileOnQueue": "i:contains('movie'), [style*='--blur-amount']:not([style*='--blur-amount: 0px'])",
     "tileByIdTemplate": "div[data-tile-id=\"{tileId}\"]:has(div)",
